@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios Turisticos</title>
+    <link rel="stylesheet" type="text/css" href="/frondend/CSS/header.css">
+    <link rel="stylesheet" type="text/css" href="/frondend/CSS/serviciosTuristicos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<header>
+    <div>
+            <img class="logo" src="/frondend/IMG/logoCostaVerde.jpeg" alt="Logo de Harbor">
+    </div>
+
+    <div class="centrar-nav">
+        <div class="navegacion">
+
+            <nav>
+                
+                <a  href="/frondend/html/alojamiento.html"style="opacity:.7; margin: 0 15px 0 0">Alojamiento </a>
+                <a  href="/frondend/html/restaurantes.html"style="opacity:.7">Restaurantes</a>
+                <a id="paginaActual" href="/seviciosTuristicos.html">Servicios Turisticos</a>
+            
+            </nav>
+        </div>
+    </div> 
+     
+     
+    <div class="header-derecha">
+        <a class="boton-ayuda" href="ayuda">?</a>
+        <a class="botones-registro" href="Registrarse">Registrarse</a>
+        <a class="botones-registro" href="botones-registro">Iniciar Sesion</a>
+    </div>
+</header>
+<section class="calendarios"> 
+    <form>
+        <div>
+            <label id="titulos"for="actividad" >Tipo de actividad</label>
+            <input  type="text" href="buscar-alojamiento" required>
+            <label id="titulos" for="entrada" style="font-size: 20px;">Fecha:</label>
+            <input type="date" id="entrada" name="entrada" min="fecha actual">
+            <label id="titulos" for="salida" style="font-size: 20px;">Hora:</label>
+            <input type="time" id="salida" name="salida" >
+        </div>
+        <div style="font-size: 20px;">
+            <label id="titulos" for="cantpersonas" >Personas:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="">
+        </div>
+        <button  class="boton-buscar" onclick="resert"><img src="/frondend/IMG/lupa.png" style="width: 20px"></button>
+    </form>
+
+</section>
+<body>
+ 
+    <main>
+        <div class="caja-imagenes">
+            <div>
+                <img id="imagenes-principales" src="/frondend/IMG/paseo caballo.jfif" alt="">
+                <img id="imagenes-principales" src="/frondend/IMG/rapel.jfif" alt="">
+                <img id="imagenes-principales" src="/frondend/IMG/raftin.jfif" alt="">
+            </div>
+            <div class="titulos-fotos">
+                <h3 >Paseo a Caballo </h3>
+                <h3>Rapel</h3>
+                <h3>Rafting</h3>
+            </div>
+            <div class="descripciones">
+                <p>Forma única de conectarte con la naturaleza y disfrutar de 
+                    la tranquilidad del entorno. Puedes explorar los hermosos 
+                    senderos y paisajes montados en majestuosos caballos, creando 
+                    recuerdos inolvidables. Nuestros amigables guías te acompañarán en esta aventura,
+                </p>
+                <p>
+                    La experiencia de rapel te invita a explorar emocionantes desafíos 
+                    verticales en un entorno impresionante. Desciende por paredes rocosas, 
+                    cascadas o cañones con seguridad y emoción, mientras disfrutas de vistas 
+                    espectaculares. Nuestros expertos guías te acompañarán en esta aventura, 
+                    asegurándote una experiencia segura y llena de adrenalina 
+                </p>
+                <p>
+                    Sumergete en la emoción de los rápidos y las aguas bravas en 
+                    medio de un paisaje impresionante. Desciende por el río en una 
+                    balsa, desafiando las olas y la corriente, mientras te adentras 
+                    en la naturaleza en su máxima expresión.
+
+
+            </div>
+
+        </div>
+    </main>
+ 
+    <footer>
+        <div class="footer-izquierdo">
+            <button href="#Inicio"  class="nav-button">Inicio</button>
+            <button href=https://www.ict.go.cr/es/ class="nav-button">Instituto Costarricense de Turismo, Sitio Institucional </button>
+        </div>
+        <div class="footer-derecho">
+            <a href="https://www.facebook.com"><img src="https://th.bing.com/th/id/R.f3cbf3b655e1bfbb9bfa403a5b9a21f7?rik=vxc%2b3AhsXZNjSg&riu=http%3a%2f%2fstatic1.squarespace.com%2fstatic%2f61f056235a60a35dc92b81a4%2ft%2f633c5a0f3ec27d603c12f519%2f1664899601049%2flogo-facebook-best-facebook-logo-icons-gif-transparent-png-images-8.png%3fformat%3d1500w&ehk=4DsJ%2bz9sehuCsVm1d6XgdwU9j%2b0XYLrI7qbhw%2fuVJjE%3d&risl=&pid=ImgRaw&r=0" alt="Facebook"></a>
+            <a href="https://www.instagram.com"><img src="https://th.bing.com/th/id/R.2f0fe36a61a5cae368821fcd25600f8d?rik=iee0kPcyrl9psg&riu=http%3a%2f%2fwww.antoine-derrien.fr%2fwp-content%2fuploads%2f2017%2f02%2flogo_instagram_transparent.png&ehk=JMCKKnIDy55rsTb96FswCDzR2oOkRiv0hzfT7RUdyC4%3d&risl=&pid=ImgRaw&r=0" alt="Instagram"></a>
+        </div>
+    </footer>
+</body>
+</html>

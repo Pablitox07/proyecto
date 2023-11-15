@@ -1,0 +1,147 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+/* Encabezado */
+header {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #1E5128;
+    color: #fff;
+    display: flex;
+    padding: 20px 20px;
+}
+
+/* Logo de Harbor */
+.logo {
+    display: flex;
+    border-radius: 25% 10%;
+    width: 100px;
+    height: 75px;
+}
+
+/* Navegación y botones de nav */
+.navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #1E5128;
+    color: #4E9F3D;
+} 
+
+.centrar-nav{
+    display: flex;
+    align-items: center;
+}
+
+.boton-navegacion {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    background-color: #D8E9A8;
+    border: none;
+    color: #1E5128;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/* Lado derecho del header*/
+.header-derecha {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.boton-ayuda {
+    background-color: #4E9F3D;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.botones-registro {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    background-color: #D8E9A8;
+    border: none;
+    color: #1E5128;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* Footer*/
+
+
+footer {
+    background-color: #1E5128;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+/* Footer izquierda*/
+.footer-izquierdo{
+    display: flex;
+}
+
+.nav-button {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+
+/* Footer derecha*/
+.footer-derecho {
+    display: flex;
+}
+
+.footer-derecho a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.footer-derecho img {
+    width: 30px;
+    height: 30px;
+}

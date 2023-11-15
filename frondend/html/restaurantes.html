@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurantes</title>
+    <link rel="stylesheet" href="/frondend/CSS/headerUsuario.css">
+    <link rel="stylesheet" type="text/css" href="/frondend/CSS/restaurantes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<header>
+        <img class="logo" src="/frondend/IMG/logoCostaVerde.jpeg" alt="Logo de Harbor">
+    <div class="centrar-nav">
+        <div class="navegacion">
+            <nav>
+                <a  href="/frondend/html/alojamiento.html" style="opacity:.7"; margin-left= "px" >Alojamiento </a>
+                <a id="paginaActual" href="/frondend/html/restaurantes.html">Restaurantes </a>
+                <a  href="/frondend/html/seviciosTuristicos.html" style="opacity: .7;">Servicios Turisticos</a> 
+            </nav>
+        </div>
+    </div>  
+    <div class="header-derecha">
+        <a class="boton-ayuda" href="ayuda">?</a>
+        <a class="botones-registro" href="Registrarse">Registrarse</a>
+        <a class="botones-registro" href="botones-registro">Iniciar Sesion</a> 
+    </div>
+</header> 
+<section class="calendarios">
+        <form>
+            <label class="titulos" for="nombre" style="font-size: 22px;">Que buscas?</label>
+            <input  type="text" href="buscar-alojamiento" name="nombre" id="nombre" required>
+            <label class="titulos" for="entrada" style="font-size: 22px;">Fecha:</label>
+            <input type="date" id="entrada" name="entrada" min="fecha actual" required>
+            <label class="titulos" for="salida"style="font-size: 22px;">Hora:</label>
+            <input type="time" id="salida" name="salida"required>
+            <div >
+                <label class="titulos" for="cantpersonas" style="font-size: 22px;">Personas:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="" required>
+            </div>
+            <button  class="boton-buscar" onclick="resert"><img src="/frondend/IMG/lupa.png" style="width: 20px"></button>
+        </section>
+<body>
+ 
+    <main> 
+        <div class="caja-imagenes">
+            <div>
+                <img id="imagenes-principales" src="/frondend/IMG/comida rapida.jfif" alt="">
+                <img id="imagenes-principales" src="/frondend/IMG/sushi.jfif "alt="sushi">
+                <img id="imagenes-principales" src="/frondend/IMG/restaurantesItaliana.jpg" alt="">
+            </div>
+            <div class="titulos-fotos" >
+                <h3>Comida Rapida</h3>
+                <h3>Sushi</h3>
+                <h3>Italiana</h3>
+            </div>
+            <div class="descripciones">
+                <p>La comida rápida te brinda una experiencia unica. Deléitate con nuestros 
+                    deliciosos platillos, elaborados con ingredientes frescos y 
+                    sabores auténticos. ¡Ven y disfruta de la mejor experiencia 
+                    culinaria en el mundo de la comida rápida!
+                </p>
+                <p>
+                    Cada rollo es una obra de arte culinaria, elaborada con pescado 
+                    fresco y los ingredientes más selectos. Ven y déjate llevar por la magia de 
+                    la gastronomía japonesa en su máxima expresión. Descubre el placer de 
+                    la auténtica tradición del sushi en cada platillo que preparamos.  
+                </p>
+                <p>
+                    Cada plato es una deliciosa muestra de la 
+                    rica herencia culinaria de Italia, preparada con ingredientes frescos y 
+                    amor por la cocina. Desde las pastas perfectamente al dente hasta las pizzas 
+                    recién horneadas con los mejores ingredientes, te invitamos a un viaje gastronómico 
+                    a través de la auténtica Italia. ¡Ven y déjate llevar por el sabor de la bella Italia!
+
+
+            </div>
+
+        </div>
+    </main>
+ 
+    <footer>
+        <div class="footer-izquierdo">
+            <button href="#Inicio"  class="nav-button">Inicio</button>
+            <button href=https://www.ict.go.cr/es/ class="nav-button">Instituto Costarricense de Turismo, Sitio Institucional </button>
+        </div>
+        <div class="footer-derecho">
+            <a href="https://www.facebook.com"><img src="https://th.bing.com/th/id/R.f3cbf3b655e1bfbb9bfa403a5b9a21f7?rik=vxc%2b3AhsXZNjSg&riu=http%3a%2f%2fstatic1.squarespace.com%2fstatic%2f61f056235a60a35dc92b81a4%2ft%2f633c5a0f3ec27d603c12f519%2f1664899601049%2flogo-facebook-best-facebook-logo-icons-gif-transparent-png-images-8.png%3fformat%3d1500w&ehk=4DsJ%2bz9sehuCsVm1d6XgdwU9j%2b0XYLrI7qbhw%2fuVJjE%3d&risl=&pid=ImgRaw&r=0" alt="Facebook"></a>
+            <a href="https://www.instagram.com"><img src="https://th.bing.com/th/id/R.2f0fe36a61a5cae368821fcd25600f8d?rik=iee0kPcyrl9psg&riu=http%3a%2f%2fwww.antoine-derrien.fr%2fwp-content%2fuploads%2f2017%2f02%2flogo_instagram_transparent.png&ehk=JMCKKnIDy55rsTb96FswCDzR2oOkRiv0hzfT7RUdyC4%3d&risl=&pid=ImgRaw&r=0" alt="Instagram"></a>
+        </div>
+    </footer>
+</body>
+</html>

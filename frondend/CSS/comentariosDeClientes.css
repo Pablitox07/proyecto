@@ -1,0 +1,168 @@
+  #usuario{
+    width: 40px;
+    background-image: none;
+    margin-left: 20px;
+  }
+
+  
+  
+ 
+
+/* Navegación y botones de nav */
+.navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #1E5128;
+    color: #4E9F3D;
+}
+ 
+.centrar-nav{
+    display: flex;
+    align-items: center;
+    
+}
+
+nav a{
+text-decoration: none;
+color: #070707;
+padding: 5px;
+background-color: #D8E9A8;
+border-radius: 5px;
+
+
+}
+
+
+
+
+ 
+
+ 
+
+
+
+.footer-derecho img {
+    width: 30px;
+    height: 30px;
+}
+
+
+h1{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 30px 0px 80px 0px;
+}
+
+.contenedor-comentarios{
+  width: 75%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: justify;
+  justify-content: center;
+  text-align: justify;
+  flex-wrap: nowrap;
+  gap: 10px;
+
+}
+
+.comentarios{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  text-align: justify;
+  color: rgb(58, 53, 53);
+  border-radius: 10px;
+
+}
+
+span{
+  font-weight: bold;
+  border: 1px solid black;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 5px;
+
+}
+
+.fotoperfil{
+
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+
+
+}
+
+.cajacomentario{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+h4{
+  font-weight: bold;
+  margin-right: 15%;
+  color : black;
+  padding: 0%;
+  font-size: 20px;
+
+}
+
+
+
+/*estilo para las estrellas*/
+.rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 10px;
+
+}
+
+.rating:not(:checked) > input {
+  position: absolute;
+  appearance: none;
+}
+
+.rating:not(:checked) > label {
+  float: right;
+  cursor: pointer;
+  font-size: 20px;
+  color: #666;
+}
+
+.rating:not(:checked) > label:before {
+  content: '★';
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+  color: #e58e09;
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+  color: #ff9e0b;
+}
+
+.rating > input:checked ~ label {
+  color: #ffa723;
+}
+
+

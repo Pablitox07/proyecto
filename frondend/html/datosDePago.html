@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de Pago</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/headerUsuario.css">
+    <link rel="stylesheet" type="text/css" href="/CSS/datosDePago.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<header>
+  <div id="Inicio">
+          <img class="logo" src="/IMG/logoCostaVerde.jpeg" alt="Logo de Costa Verde">
+  </div>
+ 
+  <div class="centrar-nav"> 
+      <div class="navegacion">
+          <nav>
+              <a class="boton-navegacion" href="/alojamientos.html">AlojamientoOOOOOO</a>
+              <a class="boton-navegacion" href="/restaurantes.html" >Restaurantes</a>
+              <a class="boton-navegacion" href="/seviciosTuristicos.html" >Servicios Turisticos</a>
+          </nav>
+      </div>
+  </div>
+     
+  
+  <div class="header-derecha">
+      <a class="boton-ayuda">?</a>
+      <a href="perfilUsuario" class="logoUsuario"><img src="/IMG/usuario.png" alt=""></a>
+  </div>
+</header>
+<body>
+ 
+    <main> 
+        <h2 style="font-size: 30px;">Datos del Pago</h2>
+        
+        <form >
+            <div class="formulario">
+
+            <label id="titulos" for="nombre" style="font-size: 25px;" class="text" >Nombre del Titular:</label>
+            <input type="text" required pattern="[A-Za-z\s.]+" placeholder="Nombre Completo" name="nombre" class="input" title="A-Za-z\s.">
+            <label id="titulos" style="font-size: 25px;" for="numero" class="text">Numero de Tarjeta:</label>
+            <input type="text" placeholder="0000-1111-2222-3333" required pattern="[0-9\s]+" name="numero" maxlength="16" class="input" title="Solo Numeros, sin espacios">
+            <label id="titulos" style="font-size: 25px;" for="fecha" style="text-align: center;"  class="text">Fecha de Vencimiento:</label>
+            <div class="ordenarInputs">
+                <label style="font-size: 25px;" id="titulos" for="Mes">Mes</label>
+                <select name="mes" id="mes" required >
+                    <option value="0" disabled selected>Mes</option>
+                    <option value="01">Enero</option>
+                    <option value="02">Febrero </option>
+                    <option value="03">Marzo</option>
+                    <option value="04">Abril</option>
+                    <option value="05">Mayo</option>
+                    <option value="06">Junio</option>
+                    <option value="07">Julio</option>
+                    <option value="08">Agosto</option>
+                    <option value="09">Septiembre</option>
+                    <option value="10">Octubre</option>
+                    <option value="11">Noviembre</option>
+                    <option value="12">Diciembre</option>
+                </select>
+                <label style="font-size: 25px;" id="titulos" for="año">Año</label>
+                    <select  name="año" id="año" required>
+                        <option value= disabled selected>Año</option>
+                        <option value="23"> 2023</option>
+                        <option value="24"> 2024</option>
+                        <option value="25"> 2025</option>
+                        <option value="26"> 2026</option>
+                        <option value="27"> 2027</option>
+                        <option value="28"> 2028</option>
+
+
+                    </select>
+
+                </select>
+            </div>
+                <label style="font-size: 25px;" id="titulos" for="codigo" style="text-align: center;" class="text">Codigo CVV:</label>
+                <input type="text" required pattern="[0-9]{3}" maxlength="3" placeholder="000" name="codigo" class="input2">
+            <div class="cajacheck">
+                <label style="font-size: 25px;" id="titulos" for="guardar"  style="text-align: center;">Guardar para futuras compras</label>
+            <input type="checkbox" name="guardar" class="check">
+            </div>
+            <input style="font-size: 20px;" type="submit" value="Pagar" class="botonPagar">
+          </div>
+        </form>    
+   </main>
+ 
+    <footer>
+        <div class="footer-izquierdo">
+            <button href="#Inicio"  class="nav-button">Inicio</button>
+            <button href=https://www.ict.go.cr/es/ class="nav-button">Instituto Costarricense de Turismo, Sitio Institucional </button>
+        </div>
+        <div class="footer-derecho">
+            <a href="https://www.facebook.com"><img src="https://th.bing.com/th/id/R.f3cbf3b655e1bfbb9bfa403a5b9a21f7?rik=vxc%2b3AhsXZNjSg&riu=http%3a%2f%2fstatic1.squarespace.com%2fstatic%2f61f056235a60a35dc92b81a4%2ft%2f633c5a0f3ec27d603c12f519%2f1664899601049%2flogo-facebook-best-facebook-logo-icons-gif-transparent-png-images-8.png%3fformat%3d1500w&ehk=4DsJ%2bz9sehuCsVm1d6XgdwU9j%2b0XYLrI7qbhw%2fuVJjE%3d&risl=&pid=ImgRaw&r=0" alt="Facebook"></a>
+            <a href="https://www.instagram.com"><img src="https://th.bing.com/th/id/R.2f0fe36a61a5cae368821fcd25600f8d?rik=iee0kPcyrl9psg&riu=http%3a%2f%2fwww.antoine-derrien.fr%2fwp-content%2fuploads%2f2017%2f02%2flogo_instagram_transparent.png&ehk=JMCKKnIDy55rsTb96FswCDzR2oOkRiv0hzfT7RUdyC4%3d&risl=&pid=ImgRaw&r=0" alt="Instagram"></a>
+        </div>
+    </footer>
+</body>
+</html>

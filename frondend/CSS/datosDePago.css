@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main{
+  flex-grow: 1;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #D8E9A8;
+  border-radius: 30px;
+  box-shadow: 15px 15px 30px #bebebe,
+  -15px -15px 30px #ffffff;
+  height: 400px;      
+  justify-content: space-around;  
+  padding: 15px; 
+  margin-bottom: 40px; 
+  width: 500px; 
+}
+h2{
+  padding: 20px;
+  font-size: 50px;
+} 
+.titulos{
+  font-size: 30px;
+}
+.input {
+  width: 350px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid rgb(121, 119, 119);
+  text-align: center;
+
+}
+.cajacheck{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.check{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border: 1px solid rgb(121, 119, 119);
+}
+
+.input2,select, .botonPagar{
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+  text-align: center;
+  border: 1px solid rgb(121, 119, 119);
+}
+
+.ordenarInputs{
+  display: flex;
+  gap: 10px;
+}
+

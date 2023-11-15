@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+.contenedor{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+ 
+.reserva {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    gap: 40px;
+
+}
+
+.nombre {
+    font-weight: bold;
+}
+
+.fecha {
+    color: #777;
+}
+#imagenReserva{
+    width: 100px;
+    height: 100px;
+    margin: 0;
+}
+
+.botonDetalles{
+    width: 80px;
+    height: 30px;
+    background-color: #D8E9A8;
+    cursor: pointer;
+
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    border: 1px solid rgb(121, 119, 119);
+
+
+}
